@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Landing Page</title>
+
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class='navbar-brand' href="landing_page.html" style="color: white">Latitude</a>
+        <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown" >
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" area-expanded='false'>Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row">
+
+            <!-- Summary Box -->
+            <div class="col-sm-12 col-md-8">
+                <div class='Box' id="summary">
+                    <h3 class="title">Summary: Latitude vs. X</h3>
+                    <hr>
+                    <a href="maxtemp.html"><img src="assets/images/Fig1.png" width="50%" height="50%"></a>
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, humidity, cloudiness and wind speed. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </div>
+            </div>
+
+            <!-- Visualization Box  -->
+            <div class='col-sm-12 col-md-4'>
+                <div class="Box" id="visuals">
+                    <h4 class="title">Visualizations</h4>
+                    <hr>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+
+                            <!-- Max Temp Chart -->
+                            <div class="col-sm-3 col-md-6">
+                                <a href="maxtemp.html"><img src="assets/images/Fig1.png"></a>
+                            </div>
+
+                            <!-- Humidity Chart -->
+                            <div class="col-sm-3 col-md-6">
+                                <a href="humidity.html"><img src="assets/images/Fig2.png"></a>
+                            </div>
+
+                            <!-- Cloudiness Chart -->
+                            <div class="col-sm-3 col-md-6">
+                                <a href="cloudiness.html"><img src="assets/images/Fig3.png"></a>
+                            </div>
+
+                            <!-- Wind Speed Chart -->
+                            <div class="col-sm-3 col-md-6">
+                                <a href="windspeed.html"><img src="assets/images/Fig4.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+</body>

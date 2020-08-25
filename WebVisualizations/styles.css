@@ -1,0 +1,69 @@
+body {
+    background-color:rgb(223, 222, 222);
+}
+
+.navbar {
+    background-color: white;
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.navbar-brand {
+    background-color: #00a28e;
+    width:100px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+}
+
+.active, .dropdown-menu .dropdow-item:active a:hover {
+    background-color: #e7e7e7;
+}
+
+.dropdown-item {
+    color: #6d8092;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #e7e7e7;
+}
+
+a {
+    color: #6d8092;
+}
+
+.nav-link:hover {
+    background-color: #e7e7e7;
+}
+
+.navbar-brand:hover {
+    color: rgb(175,175,175);
+}
+
+#visuals img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    color: #00a28e;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 13px; 
+}
+
+.Box {
+    background-color: white;
+    padding: 10px 20px 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media (max-width:640px) {
+
+}
