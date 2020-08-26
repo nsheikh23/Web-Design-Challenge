@@ -34,11 +34,18 @@ a {
 }
 
 .nav-link:hover {
-    background-color: #00a28e;
+    border-style: solid;
+    border-color: #00a28e;
 }
 
 .navbar-brand:hover {
     color: rgb(175,175,175);
+}
+
+#summary img{
+    float: left;
+    width: 50%;
+    height: 50%;
 }
 
 #visuals img {
@@ -52,6 +59,7 @@ a {
 }
 
 .title {
+    background-color: white;
     color: #00a28e;
     padding-top: 20px;
     font-weight: bold;
@@ -67,10 +75,23 @@ p {
 .Box {
     background-color: white;
     padding: 10px 20px 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 @media (max-width:640px) {
 
+    .navbar-expand-md   {
+        background-color: #00a28e;
+    }
+
+    .navbar {
+        padding: inherit;
+    }
+
+    .navbar-brand {
+        padding:0px
+    }
+
+    
 }
