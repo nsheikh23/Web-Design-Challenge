@@ -15,7 +15,7 @@
 <body>
     
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light">
         <a class='navbar-brand' href="landing_page.html" style="color: white">Latitude</a>
         <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,18 +45,18 @@
         <div class="row">
 
             <!-- Summary Box -->
-            <div class="col-sm-12 col-md-8">
-                <div class='Box' id="summary">
+            <div class="col-sm-12 col-md-7">
+                <div class='Box'>
                     <h3 class="title">Summary: Latitude vs. X</h3>
                     <hr>
-                    <a href="maxtemp.html"><img src="assets/images/Fig1.png" width="50%" height="50%"></a>
+                    <a href="maxtemp.html"><img src="assets/images/Fig1.png" class="rounded float-left" width="50%" height="50%"></a>
                     <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>
                     <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, humidity, cloudiness and wind speed. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
                 </div>
             </div>
 
             <!-- Visualization Box  -->
-            <div class='col-sm-12 col-md-4'>
+            <div class='col-sm-12 col-md-5'>
                 <div class="Box" id="visuals">
                     <h4 class="title">Visualizations</h4>
                     <hr>
@@ -91,5 +91,10 @@
             </div>
         </div>
     </main>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>

@@ -12,20 +12,21 @@ body {
     width:100px;
     padding: 10px;
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
     margin-left: 15px;
 }
 
 .active, .dropdown-menu .dropdow-item:active a:hover {
-    background-color: #e7e7e7;
+    background-color: rgb(235, 235, 235);
 }
 
 .dropdown-item {
-    color: #6d8092;
+    color: black;
 }
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: #e7e7e7;
+    background-color: rgb(223, 222, 222);
+    color: #00a28e;
 }
 
 a {
@@ -33,7 +34,7 @@ a {
 }
 
 .nav-link:hover {
-    background-color: #e7e7e7;
+    background-color: #00a28e;
 }
 
 .navbar-brand:hover {
@@ -45,16 +46,22 @@ a {
     height: 100%;
 }
 
+.active, #visuals img:hover {
+    border-color: #00a28e;
+    border-style: solid;
+}
+
 .title {
     color: #00a28e;
-    padding-top: 15px;
+    padding-top: 20px;
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact;
 }
 
 p {
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 13px; 
+   font-family: calibri;
+   font-size: 18px;
+   color: rgb(138, 138, 138);
 }
 
 .Box {
