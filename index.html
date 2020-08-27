@@ -13,40 +13,43 @@
 </head>
 
 <body>
-    
     <!-- NavBar -->
     <nav class="navbar navbar-expand-md navbar-light">
-        <a class='navbar-brand' href="index.html" style="color: white">Latitude</a>
-        <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown" >
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" area-expanded='false'>Plots</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="comparisons.html">Comparison</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-            </ul>
+        <div class="container-fluid">
+
+            <a class='navbar-brand' href="index.html">Latitude</a>
+            <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" area-expanded='false'>Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+    
 
     <main class="container">
         <div class="row">
 
             <!-- Summary Box -->
-            <div class="col-sm-12 col-md-7">
-                <div class='Box' id='summary'>
+            <div class="col-xs-12 col-md-7" id='summary'>
+                <div class='Box'>
                     <h3 class="title">Summary: Latitude vs. X</h3>
                     <hr>
                     <img src="assets/images/Fig1.png" class="rounded">
@@ -56,8 +59,8 @@
             </div>
 
             <!-- Visualization Box  -->
-            <div class='col-sm-12 col-md-5'>
-                <div class="Box" id="visuals">
+            <div class='col-xs-12 col-md-4' id="visuals">
+                <div class="Box">
                     <h4 class="title">Visualizations</h4>
                     <hr>
                     <br>
@@ -91,6 +94,10 @@
             </div>
         </div>
     </main>
+
+    <footer class="footer">
+        <p>@The Sheikh Analysis</p>
+    </footer>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
