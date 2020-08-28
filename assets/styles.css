@@ -47,7 +47,7 @@ a {
     color: rgb(185, 185, 185);
 }
 
-#content {
+#comparison {
     background-color: white;
     margin-top: 30px;
     margin-left: 150px;
@@ -59,6 +59,7 @@ a {
     padding: 15px;
     padding-bottom: 35px;
 }
+
 #summary img{
     float: left;
     width: 50%;
@@ -114,6 +115,10 @@ p {
     padding: 0px;
 }
 
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: rgba(0, 128, 0, 0.274)
+}
+
 @media (max-width:640px) {
 
     .navbar-expand-md   {
@@ -144,7 +149,7 @@ p {
         padding-left: 5px;
     }
 
-    #content {
+    #comparison {
         margin: 0px;
     }
 
@@ -157,4 +162,12 @@ p {
         font-size: 9px;
     }
 
+    #content {
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+
+    #navbarNavDropdown {
+        background-color: white;
+    }
 }
