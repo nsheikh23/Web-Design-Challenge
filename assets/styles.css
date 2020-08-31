@@ -116,7 +116,7 @@ p {
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-    background-color: rgba(0, 128, 0, 0.274)
+    background-color: #00a28f7c
 }
 
 @media (max-width:640px) {
