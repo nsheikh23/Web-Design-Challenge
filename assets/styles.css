@@ -92,7 +92,7 @@ p {
     background-color: white;
     padding: 10px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .footer {
@@ -134,7 +134,7 @@ p {
     }
 
     .Box {
-        margin: 0px;
+        margin: 5px;
         padding: 0px 0px 0px;
     }
 
@@ -165,6 +165,7 @@ p {
     #content {
         padding: 0px;
         padding-bottom: 15px;
+        margin: 15px;
     }
 
     #navbarNavDropdown {

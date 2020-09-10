@@ -44,53 +44,48 @@
     </nav>
     
 
-    <main class="container col-sm-12 col-md-9" id="content">
-        <div class="row">
+    <main class="container col-sm-11" id="content">
+        <div class="row container-fluid">
 
             <!-- Summary Box -->
-            <div class="col-xs-12 col-md-7" id='summary'>
-                <div class='Box'>
-                    <h3 class="title">Summary: Latitude vs. X</h3>
-                    <hr>
-                    <img src="assets/images/Fig1.png" class="rounded">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, humidity, cloudiness and wind speed. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-                </div>
+            <div class="container col-sm-12 col-md-7 Box" id='summary'>
+                <h3 class="title">Summary: Latitude vs. X</h3>
+                <hr>
+                <img src="assets/images/Fig1.png" class="rounded">
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, humidity, cloudiness and wind speed. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
             </div>
-
+        
             <!-- Visualization Box  -->
-            <div class='col-xs-12 col-md-4' id="visuals">
-                <div class="Box">
-                    <h4 class="title">Visualizations</h4>
-                    <hr>
-                    <div class="container">
-                        <div class="row">
+            <div class='container col-sm-12 col-md-4 Box' id="visuals">
+                <h4 class="title">Visualizations</h4>
+                <hr>
+                <div class="container-fluid">
+                    <div class="row">
 
-                            <!-- Max Temp Chart -->
-                            <div class="col-sm-3 col-md-6">
-                                <a href="maxtemp.html"><img src="assets/images/Fig1.png"></a>
-                            </div>
+                        <!-- Max Temp Chart -->
+                        <div class="col-sm-3 col-md-6">
+                            <a href="maxtemp.html"><img src="assets/images/Fig1.png"></a>
+                        </div>
 
-                            <!-- Humidity Chart -->
-                            <div class="col-sm-3 col-md-6">
-                                <a href="humidity.html"><img src="assets/images/Fig2.png"></a>
-                            </div>
+                        <!-- Humidity Chart -->
+                        <div class="col-sm-3 col-md-6">
+                            <a href="humidity.html"><img src="assets/images/Fig2.png"></a>
+                        </div>
 
-                            <!-- Cloudiness Chart -->
-                            <div class="col-sm-3 col-md-6">
-                                <a href="cloudiness.html"><img src="assets/images/Fig3.png"></a>
-                            </div>
+                        <!-- Cloudiness Chart -->
+                        <div class="col-sm-3 col-md-6">
+                            <a href="cloudiness.html"><img src="assets/images/Fig3.png"></a>
+                        </div>
 
-                            <!-- Wind Speed Chart -->
-                            <div class="col-sm-3 col-md-6">
-                                <a href="windspeed.html"><img src="assets/images/Fig4.png"></a>
-                            </div>
+                        <!-- Wind Speed Chart -->
+                        <div class="col-sm-3 col-md-6">
+                            <a href="windspeed.html"><img src="assets/images/Fig4.png"></a>
                         </div>
                     </div>
-                    
-                </div>
-                
+                </div> 
             </div>
+                
         </div>
     </main>
 
